@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: aquamarine;
+}
+.container{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow:0 0 10px gray;
+    text-align: center;
+    padding: 30px;
+    width:40%
+}
+#error{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    
+}
+h1{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#taskInput{
+    width:60%;
+    height:50%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#addButton{
+    padding: 10px;
+    height:30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+    margin-left: 20px;
+
+}
+#addItems{
+    list-style-type: none;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: auto;
+    height:100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#addItems li{
+    padding: 5px;
+
+}
+ li.notcompleted{
+    color:green;
+    }
+    
+li.completed{
+    color:red;
+    
+}
+#addItems button{
+    padding: 10px;
+    margin-left: 50x;
+}
